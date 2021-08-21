@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04AA6D;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Cor do hover */
+li a:hover {
+    background-color: rgb(250, 59, 1);
+}
+
+/* Design de fontes dos titulos */
+
+@font-face {
+    font-family: "Novecentowide-DemiBold"; 
+    src: url("Novecentowide-DemiBold.otf") format("opentype");
+}
+.Novecentowide-DemiBold-font{
+    font-family: "Novecentowide-DemiBold";  
+}
+
+.clr-1 { color:#b92103;}
+.clr-2 { color:#94adb7;}
+.clr-3 { color:#0505f5;}
+
+h1 {
+    font-size:36px; 
+    line-height:46px; 
+    color:#767d80; 
+    font-weight:300; 
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:-2px; 
+    border-bottom:#c4d2d7 0px solid; 
+}
+
+h1 strong {
+    display:block; 
+    font-weight:300; 
+    margin-top:-10px;
+}
+
+h2 { 
+    font-size:36px; 
+    line-height:46px; 
+    color:#767d80; 
+    font-weight:300; 
+    font-family: 'Muli', sans-serif;
+    letter-spacing:-2px; 
+    border-bottom:#c4d2d7 1px solid; 
+}
+
+h2 strong {
+    display:block; 
+    font-weight:300; 
+    margin-top:-10px;
+}
