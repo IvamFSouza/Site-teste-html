@@ -20,10 +20,32 @@ li a {
   
 /* Cor do hover */
 li a:hover {
-    background-color: rgb(250, 59, 1);
+    background-color: rgb(240, 80, 32);
 }
 
 /* Design de fontes dos titulos */
+a {
+    text-decoration:none; 
+    cursor:pointer;
+    text-decoration:none; 
+}
+a:hover {
+    text-decoration:none;
+}
+.button {
+    background: #0505f5; color: #fff; 
+    font-size: 14px;
+    font-family: "Novecentowide-DemiBold";
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 6px 15px 6px 15px;
+    display: inline-block;
+    border-radius: 6px;
+}
+.button:hover {
+    background: rgb(240, 80, 32);
+}
 
 @font-face {
     font-family: "Novecentowide-DemiBold"; 
@@ -42,7 +64,7 @@ h1 {
     line-height:46px; 
     color:#767d80; 
     font-weight:300; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Novecentowide-DemiBold";
     letter-spacing:-2px; 
     border-bottom:#c4d2d7 0px solid; 
 }
